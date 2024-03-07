@@ -1,0 +1,9 @@
+@import '../Home_style/Home.css';
+ul {
+  padding: 0;
+}
+
+li {
+  padding: 0;
+  list-style-type: none;
+}/*# sourceMappingURL=main.css.map */
