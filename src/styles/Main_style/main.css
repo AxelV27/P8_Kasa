@@ -1,4 +1,3 @@
-@import '../Home_style/Home.css';
 ul {
   padding: 0;
 }
@@ -6,4 +5,8 @@ ul {
 li {
   padding: 0;
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

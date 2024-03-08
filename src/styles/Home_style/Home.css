@@ -58,16 +58,12 @@
 }
 .card__figcaption {
   position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 150px;
+  z-index: 1;
 }
 .card__title {
   color: white;
-  font-size: 18px;
-  width: 95%;
+  font-size: 15px;
   position: absolute;
-  left: 10px;
-  bottom: 0px;
+  left: -180px;
+  top: 60px;
 }/*# sourceMappingURL=Home.css.map */
