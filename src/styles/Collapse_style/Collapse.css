@@ -1,0 +1,35 @@
+.collapse__header {
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #FF6060;
+  color: white;
+}
+.collapse__header__title {
+  font-size: 18px;
+  margin: 0;
+  padding: 6px 13px;
+}
+.collapse__header__icon {
+  font-size: 20px;
+  padding: 6px 13px;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+.collapse__header__icon.close {
+  transform: rotate(0deg);
+}
+.collapse__header__icon.open {
+  transform: rotate(180deg);
+}
+.collapse__content {
+  position: relative;
+  font-size: 16px;
+  margin-bottom: 16px;
+  margin-top: -10px;
+  padding: 13px 16px;
+  z-index: -1;
+  line-height: 23px;
+}/*# sourceMappingURL=Collapse.css.map */
