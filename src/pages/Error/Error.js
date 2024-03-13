@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../components/Hearder";
+import Header from "../../components/Header";
 import Error from "../../components/Error/Error";
 import Footer from "../../components/Footer";
 
