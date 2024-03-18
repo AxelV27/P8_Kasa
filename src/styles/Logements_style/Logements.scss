@@ -1,0 +1,82 @@
+.logement__page{
+    width: 95%;
+    min-height: 560px;
+    margin: 1px auto 112px auto;
+   &__header{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0 16px 0;
+    &__infos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &__title{
+            font-size: 35px;
+            margin: 0;
+        }
+        &__subtitle{
+            font-size: 18px;
+            margin: 3px 0 1px 0;
+        }
+        &__tags{
+            display: flex;
+            flex-wrap: wrap;
+            &__tag{
+                font-size: 15px;
+                color: white;
+                background-color: #ff5656;
+                margin: 0 16px 0 0;
+                padding: 3px 24px;
+                border-radius: 8px;
+            }
+        }
+    }
+    &__hote{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        &__infos{
+            display: flex;
+            align-items: center;
+            &__name{
+                width: 120px;
+                text-align: right;
+                margin-right: 8px;
+                font-size: 18px;
+            }
+            &__image{
+                width: 50px;
+                height: 50px;
+                border-radius: 45px;
+                object-fit: cover;
+            }
+        }
+        &__note{
+            margin-top: 16px;
+            text-align: right;
+            &__star{
+               padding-left: 5px;
+               font-size: 25px;
+               color: #ff5656;
+               &__gris{
+                color: gray;
+                font-size: 25px;
+               }
+            }
+        }
+    }
+   } 
+   &__collapse{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    &__content{
+        margin: 16px 0;
+        width: 47%;
+        & ul{
+            margin: 0;
+        }
+    }
+   }
+}

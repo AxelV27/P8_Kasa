@@ -6,13 +6,13 @@
   position: relative;
   margin: auto;
 }
-.carouselshow_container {
+.carouselshow__container {
   display: flex;
-  transition: transform 0.5 ease;
-}
-.carouselshow_container_img {
   width: 100%;
-  height: 100%;
+}
+.carouselshow__container__img {
+  width: 100%;
+  height: 350px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -28,17 +28,18 @@
   text-align: center;
   padding: 0 10px;
 }
-.carouselshow__nav_fleche {
+.carouselshow__nav__fleche {
   cursor: pointer;
   font-size: 25px;
   height: auto;
   width: 50px;
+  color: white;
 }
 .carouselshow__index {
   position: absolute;
   color: white;
   bottom: 10px;
   font-size: 15px;
-  opacity: 0;
-  transition: ocpacity 250ms ease-in-out;
+  padding: 3px 6px;
+  opacity: 1;
 }/*# sourceMappingURL=Gallerie.css.map */

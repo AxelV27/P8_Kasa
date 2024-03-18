@@ -6,18 +6,10 @@ import '../../styles/Gallerie_style/Gallerie.css'
 const angleLeft = <FontAwesomeIcon icon={faAngleLeft} />
 const angleRight = <FontAwesomeIcon icon={faAngleRight} />
 
- const Gallerie = (props) =>{
+const Gallerie = (props) =>{
     const [carousel, setCarousel] = useState(0);
-    const imgSize = () =>{
-        const carouselshowImg = document.querySelector('.carouselshow__container img');
-        if(!carouselshowImg){
-            return 0;
-        }
-        return carouselshowImg.width;
-    }
-
     const Suivant = () => {
-        if(carousel === props.img.lenght - 1){
+        if(carousel === props.img.length - 1){
             setCarousel(0)
         } else{
             setCarousel(carousel + 1)
@@ -26,7 +18,7 @@ const angleRight = <FontAwesomeIcon icon={faAngleRight} />
 
     const Precedent = () => {
         if(carousel === 0 ){
-            setCarousel(props.img.lenght - 1)
+            setCarousel(props.img.length - 1)
         } else {
             setCarousel(carousel - 1)
         }
@@ -35,19 +27,18 @@ const angleRight = <FontAwesomeIcon icon={faAngleRight} />
     return (
         <div className="carouselshow">
             <div className="carouselshow__container">
-                {props.img.map((picture, i ) =>
-                <img className="carouselshow__container__img" alt="bannière-page-logements" src={picture} key={i} /> 
-                )}
+                <img className="carouselshow__container__img" alt="bannière-page-logements" src={props.img[carousel]}  />
             </div>
-            {props.img.lenght > 1 && 
+            {props.img.length > 1 && 
             <>
                 <div className="carouselshow__nav">
                     <i className="carouselshow__nav__fleche" onClick={Precedent}>{angleLeft}</i>
                     <i className="carouselshow__nav__fleche" onClick={Suivant}>{angleRight}</i>
                 </div> 
-                <div className="carouselshow__index">{carousel + 1} / {props.img.lenght}</div> 
+                <div className="carouselshow__index">{carousel + 1} / {props.img.length}</div>
             </>}
         </div>
     )
- }    
+}
+ 
 export default Gallerie

@@ -7,14 +7,14 @@ const Note = (props) =>{
     const range = [1, 2, 3, 4, 5]
 
     return(
-        <div className="logement__page__hote__note">
+        <div className="logement__page__header__hote__note">
                 {range.map((rangeElem)=>
                     noteValue >= rangeElem ? 
-                    <span key={rangeElem.toString()} className="logement__page__hote__note__star">
+                    <span key={rangeElem.toString()} className="logement__page__header__hote__note__star">
                         <FontAwesomeIcon icon={faStar}/>
                     </span> 
                     : 
-                    <span key={rangeElem.toString()} className="logement__page__hote__note__star__gris">
+                    <span key={rangeElem.toString()} className="logement__page__header__hote__note__star__gris">
                         <FontAwesomeIcon icon={faStar} />
                     </span>
                 )}
