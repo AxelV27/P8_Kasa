@@ -9,4 +9,11 @@
 .apropos__collapse__content {
   margin-bottom: 30px;
   width: 75%;
+}
+
+@media (max-width: 768px) {
+  .apropos__collapse {
+    width: 98%;
+    margin-top: 27px;
+  }
 }/*# sourceMappingURL=Apropos.css.map */

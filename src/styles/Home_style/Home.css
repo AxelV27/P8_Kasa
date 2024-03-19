@@ -45,8 +45,6 @@
 }
 .card__figure {
   display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 25px;
 }
 .card__image {
@@ -63,7 +61,30 @@
 .card__title {
   color: white;
   font-size: 15px;
-  position: absolute;
-  left: -180px;
-  top: 60px;
+  margin-left: 15px;
+  margin-top: 225px;
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  .location {
+    padding: 0;
+    margin: 0 0 112px 0;
+    width: 100%;
+    background-color: transparent;
+  }
+  .location__liste {
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 100%;
+  }
+  .card__figure {
+    margin: 16px 8px;
+  }
+  .card__cover {
+    height: 400px;
+  }
 }/*# sourceMappingURL=Home.css.map */

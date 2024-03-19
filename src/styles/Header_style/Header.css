@@ -11,4 +11,13 @@
 .header_logo {
   width: 210px;
   height: 68px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    width: 90%;
+  }
+  .header_logo {
+    width: 112px;
+  }
 }/*# sourceMappingURL=Header.css.map */

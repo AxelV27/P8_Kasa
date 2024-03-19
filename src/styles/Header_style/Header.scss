@@ -13,4 +13,12 @@
  }
 }
 
+@media(max-width : 768px){
+   .header{
+      width: 90%;
+     &_logo{
+         width: 112px;
+     } 
+   }
+}
 

@@ -12,3 +12,12 @@
        } 
     }
 }
+
+@media(max-width : 768px){
+    .apropos{
+        &__collapse{
+            width: 98%;
+            margin-top: 27px;
+        }
+    }
+}

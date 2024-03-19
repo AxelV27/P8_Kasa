@@ -80,4 +80,45 @@
 }
 .logement__page__collapse__content ul {
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .logement__page {
+    min-height: 640px;
+  }
+  .logement__page__header {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .logement__page__header__infos__tags__tag {
+    margin-bottom: 16px;
+  }
+  .logement__page__header__hote {
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+  .logement__page__header__hote__infos {
+    align-items: center;
+  }
+  .logement__page__header__hote__infos__name {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .logement__page__header__hote__note {
+    padding: 0 3px 16px 0;
+  }
+  .logement__page__header__hote__note__star {
+    padding: 0 3px 48px 0;
+  }
+  .logement__page__collapse {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logement__page__collapse__content {
+    width: 100%;
+    margin-bottom: 0;
+  }
 }/*# sourceMappingURL=Logements.css.map */

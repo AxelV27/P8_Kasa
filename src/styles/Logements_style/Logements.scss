@@ -80,3 +80,48 @@
     }
    }
 }
+
+@media (max-width :768px){
+    .logement__page{
+        min-height: 640px;
+        &__header{
+            flex-direction: column;
+            margin-bottom: 0;
+           &__infos{
+            &__tags{
+                &__tag{
+                    margin-bottom: 16px;
+                }
+            }
+           } 
+           &__hote{
+            flex-direction: row-reverse;
+            align-items: center;
+            margin-top: 0;
+            margin-bottom: 8px;
+            &__infos{
+                align-items: center;
+                &__name{
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+            }
+            &__note{
+                padding: 0 3px 16px 0;
+                &__star{
+                    padding: 0 3px 48px 0;
+                }
+            }
+        }
+        }
+       &__collapse{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+         &__content{
+            width: 100%;
+            margin-bottom: 0;
+         }
+       } 
+    }
+}
