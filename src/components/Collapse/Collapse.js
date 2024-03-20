@@ -19,7 +19,7 @@ const Collapse = (props) => {
             <i onClick={isopenHandler} className={`collapse__header__icon ${isopen ? 'open': 'close'}`}>{angleUp}</i>
     </div>
     {isopen && 
-        <div className="collapse__content">{props.content}</div>
+        <div className={`collapse__content ${isopen ? 'open' : 'close'}`}>{props.content}</div>
     }
     </>
  )

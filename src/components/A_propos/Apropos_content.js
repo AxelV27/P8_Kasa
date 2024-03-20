@@ -20,7 +20,7 @@ export default function AproposContent (){
             <div className="apropos__collapse__content">
                 <Collapse 
                     title = "Services"
-                    content = '.'
+                    content = 'La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme. '
                 />
             </div>
             <div className="apropos__collapse__content">

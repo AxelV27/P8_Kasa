@@ -1,3 +1,24 @@
+@keyframes slideDown {
+  0% {
+    max-height: 0;
+    opacity: 0;
+  }
+  100% {
+    max-height: 1000px; 
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp{
+  0%{
+    max-height: 1000px; 
+    opacity: 1;
+  }
+  100%{
+    max-height: 0;
+    opacity: 0;
+  }
+}
 
 .collapse{
     &__header{
@@ -33,6 +54,14 @@
         margin-top: -10px;
         padding: 13px 16px;
         z-index: -1;
-        line-height: 23px;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        &.open{
+          animation: slideDown 1s ease-in forwards;
+        }
+        &.close{
+          animation: slideUp 1s ease-in forwards;
+        }
     }    
 }

@@ -19,14 +19,17 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
   .banner {
     width: 98%;
   }
-  .banner__title {
+  .banner_title {
     width: 65%;
     padding-left: 16px;
+    font-size: 16px;
   }
 }/*# sourceMappingURL=Banner.css.map */

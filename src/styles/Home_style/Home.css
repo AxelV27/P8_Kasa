@@ -32,9 +32,9 @@
 .card__title {
   color: white;
   font-size: 15px;
-  margin-left: 6px;
-  margin-top: 225px;
-  width: 60%;
+  margin-left: 9px;
+  margin-top: 204px;
+  width: 47%;
 }
 
 @media (max-width: 768px) {
