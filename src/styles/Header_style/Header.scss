@@ -6,6 +6,9 @@
  &_nav{
     display: flex;
     gap: 57px;
+    &.active{
+      text-decoration-line: underline;
+    }
   }
  &_logo{
     width: 210px;

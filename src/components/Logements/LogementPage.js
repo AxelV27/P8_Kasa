@@ -1,9 +1,9 @@
 import React from "react";
 import {useParams} from 'react-router-dom';
-import { Link } from 'react-router-dom'
 import logements from '../../datas/locationsList.json';
 import Collapse from "../Collapse/Collapse";
 import Note from "./NoteLogements";
+import Error from "../Error/Error"
 import Gallerie from "../Gallerie/Gallerie";
 import '../../styles/Logements_style/Logements.css'
  
@@ -13,11 +13,7 @@ export default function PageLogement () {
     const logement = logements.find(logement => logement.id === id)
     if(logement === undefined){
         return(
-            <div>
-            <h1 className='error_404'>404</h1>
-            <h2 className='error_404_subtitle'>Oups! La page que vous demandez n'existe pas.</h2>
-            <Link to='/' className='error_404_return'>Retourner sur la page d'accueil</Link>
-        </div>
+            <Error />
         )
     }
     return (

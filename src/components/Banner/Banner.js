@@ -1,12 +1,11 @@
-import Image from '../../assets/IMG.png'
+import React from 'react'
 import '../../styles/Banner_style/Banner.css'
 
-export default function Banner (){
-    const title = "Chez vous, partout et ailleurs"
+export default function Banner (props){
     return(
         <div className='banner'>
-            <img src= {Image} alt='bannière' className='banner_image'/>
-            <h1 className='banner_title'>{title}</h1>
+            <img src= {props.src} alt='bannière' className='banner_image'/>
+            <h1 className='banner_title'>{props.title}</h1>
         </div>
     )
 }

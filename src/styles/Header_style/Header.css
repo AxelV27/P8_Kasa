@@ -8,6 +8,9 @@
   display: flex;
   gap: 57px;
 }
+.header_nav.active {
+  text-decoration-line: underline;
+}
 .header_logo {
   width: 210px;
   height: 68px;
