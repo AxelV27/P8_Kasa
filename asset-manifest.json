@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/P8_Kasa/static/css/main.819880bd.css",
+    "main.js": "/P8_Kasa/static/js/main.23f677f0.js",
+    "static/media/AproposBanner.png": "/P8_Kasa/static/media/AproposBanner.ef5dc982743b7363d7bd.png",
+    "static/media/IMG.png": "/P8_Kasa/static/media/IMG.1029510ac4f34eb21921.png",
+    "static/media/LOGO.svg": "/P8_Kasa/static/media/LOGO.e4c19ab08388715cdafcc1bc5806f288.svg",
+    "index.html": "/P8_Kasa/index.html",
+    "main.819880bd.css.map": "/P8_Kasa/static/css/main.819880bd.css.map",
+    "main.23f677f0.js.map": "/P8_Kasa/static/js/main.23f677f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.819880bd.css",
+    "static/js/main.23f677f0.js"
+  ]
+}
