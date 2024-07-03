@@ -11,7 +11,7 @@ export default  function IndexRoutes () {
       <Routes>
         <Route path='/P8_Kasa' element={<Home />}/>
         <Route path='/P8_Kasa/Apropos' element ={<Apropos />}/>
-        <Route exact path='P8_Kasa/location/:id' element = {<Logement />} />
+        <Route exact path='/P8_Kasa/location/:id' element = {<Logement />} />
         <Route path='*' element = {<Error404 />} />
       </Routes>
     </Router>
