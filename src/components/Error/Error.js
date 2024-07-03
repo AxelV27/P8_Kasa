@@ -7,7 +7,7 @@ export default function Error(){
         <div>
             <h1 className='error_404'>404</h1>
             <h2 className='error_404_subtitle'>Oups! La page que vous demandez n'existe pas.</h2>
-            <Link to='/' className='error_404_return'>Retourner sur la page d'accueil</Link>
+            <Link to='/P8_Kasa' className='error_404_return'>Retourner sur la page d'accueil</Link>
         </div>
     )
 }
