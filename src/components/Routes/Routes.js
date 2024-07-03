@@ -9,9 +9,9 @@ export default  function IndexRoutes () {
     return(
     <Router>
       <Routes>
-        <Route path='/' element={<Home />}/>
-        <Route path='/Apropos' element ={<Apropos />}/>
-        <Route exact path='/location/:id' element = {<Logement />} />
+        <Route path='/P8_Kasa' element={<Home />}/>
+        <Route path='/P8_Kasa/Apropos' element ={<Apropos />}/>
+        <Route exact path='P8_Kasa/location/:id' element = {<Logement />} />
         <Route path='*' element = {<Error404 />} />
       </Routes>
     </Router>

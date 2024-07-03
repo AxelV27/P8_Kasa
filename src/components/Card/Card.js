@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Card ({id, title, cover}){
     return(
     <li key={id} className="card">
-        <Link to={'/location/' + id} >
+        <Link to={'/P8_Kasa/location/' + id} >
         <figure className="card__figure">
                 <img src= {cover} alt = {title} className="card__image"/>
                 <figcaption className="card__figcaption">
